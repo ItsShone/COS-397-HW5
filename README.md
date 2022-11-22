@@ -24,7 +24,30 @@ both Python 3.9 and 3.10.
 A job in the workflow is included to test with TestPyPi.
 
 
-# Tutorial (WIP)
+# Tutorial 
+
+On the Code:
+
+The program can be simply run in the default Python compiler, or a Python compiler of the 
+user's choice. To do so, follow these steps for each sort algorithm;
+
+Bubble Sort
+- Type in "bubble()", with a list of integers as the parameter.
+- List format: "[x, y, z, so on]"
+
+Quick sort
+- Type in "quick()", with a list of integers, a variable of the left-most index, and a variable of the right-most index.
+- List format: "[x, y, z, so on]"
+- Such that one would enter: "quick([x, y, z, etc], left, right)"
+
+Insertion Sort
+- Type in "insertion()", with a list of integers as the parameter.
+- List format: "[x, y, z, so on]"
+
+Each of these will return a sorted list.
+
+
+On the linting / testing
 
 
 
