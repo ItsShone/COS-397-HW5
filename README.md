@@ -1,5 +1,7 @@
 # DevOps Exercise / COS 397 HW5
-
+![Linting-Complete-success](https://user-images.githubusercontent.com/83358351/203453004-082f5881-dd6a-4865-b371-6d2ff0eb85fa.svg)
+![Testing-Complete-success](https://user-images.githubusercontent.com/83358351/203453007-95d5e662-8445-441a-a363-f7b64065225a.svg)
+![Packaging-Complete-success](https://user-images.githubusercontent.com/83358351/203452992-89b644a2-bc79-4461-868f-ae45a57793c0.svg)
 
 # Developers
 
