@@ -21,8 +21,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install pylint
-        pip install flake8
+        python -m pip install pylint
+        python -m pip install flake8
     - name: Lint with flake8
       run: |
         python -m flake8 . --show-source --statistics
