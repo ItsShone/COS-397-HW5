@@ -33,7 +33,7 @@ def quick(int_list, left, right):
     right: the rightmost index of the array
 
     Returns:
-    Nothing. The array that is used as an argument will 
+    Nothing. The array that is used as an argument will
     be sorted after calling this function
 
     Raises:
@@ -43,7 +43,7 @@ def quick(int_list, left, right):
     """
     if left < right:
         greatest = left - 1
-
+        
         for j in range(left, right):
             if int_list[j] <= int_list[right]:
                 greatest = greatest + 1
