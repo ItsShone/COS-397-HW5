@@ -25,6 +25,7 @@ def bubble(int_list):
 
 def quick(int_list, left, right):
     """Sorts an array using Quick Sort.
+    
     Args:
     int_list: the array to be sorted.
     left: the leftmost index of the array
@@ -56,7 +57,7 @@ def quick(int_list, left, right):
 
 def insertion(int_list):
     """Sorts an array using Insertion Sort.
-
+    
     Args:
     int_list: the array to be sorted.
     Returns:
