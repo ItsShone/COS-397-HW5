@@ -1,3 +1,7 @@
+<img src="https://img.shields.io/badge/build-passing-brightgreen" />
+<img src="https://img.shields.io/badge/lint-passing-green" />
+<img src="https://img.shields.io/badge/test-passing-green" />
+
 # DevOps Exercise / COS 397 HW5
 
 
