@@ -5,8 +5,12 @@ on: [push]
 jobs:
   build:
     runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
     
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.9","3.10"]
         os: [windows-latest, macos-latest, ubuntu-latest]
