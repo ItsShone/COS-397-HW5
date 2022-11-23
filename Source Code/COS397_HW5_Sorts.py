@@ -10,7 +10,7 @@ def bubble(int_list):
     Args:
     int_list: the array to be sorted.
     Returns:
-    Nothing. The array that is used as an argument will 
+    Nothing. The array that is used as an argument will
     be sorted after calling this function
     Raises:
     TypeError: if theList is not an array.
@@ -29,7 +29,7 @@ def quick(int_list, left, right):
     """Sorts an array using Quick Sort.
     Args:
     int_list: the array to be sorted.
-    left: the leftmost index of the array 
+    left: the leftmost index of the array
     right: the rightmost index of the array
 
     Returns:
@@ -48,7 +48,9 @@ def quick(int_list, left, right):
             if int_list[j] <= int_list[right]:
                 greatest = greatest + 1
                 (int_list[greatest], int_list[j]) = (int_list[j], int_list[greatest])
-        (int_list[greatest + 1], int_list[right]) = (int_list[right], int_list[greatest + 1])
+        (int_list[greatest + 1], int_list[right]) = (
+            int_list[right], int_list[greatest + 1]
+        )
         quick(int_list, left, greatest)
         quick(int_list, greatest + 2, right)
 
@@ -59,7 +61,7 @@ def insertion(int_list):
     Args:
     int_list: the array to be sorted.
     Returns:
-    Nothing. The array that is used as an argument will 
+    Nothing. The array that is used as an argument will
     be sorted after calling this function
     Raises:
     TypeError: if theList is not an array.
