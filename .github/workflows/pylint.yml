@@ -22,8 +22,6 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install pylint
-        pip install black
-        pip install -r requirements-dev.txt
     - name: Lint with black
       run: |
         python -m black --check --diff .
