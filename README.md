@@ -1,6 +1,4 @@
-<img src="https://img.shields.io/badge/build-passing-brightgreen" />
-<img src="https://img.shields.io/badge/lint-passing-green" />
-<img src="https://img.shields.io/badge/test-passing-green" />
+<img src="https://img.shields.io/badge/build-passing-brightgreen" /> <img src="https://img.shields.io/badge/lint-passing-green" /> <img src="https://img.shields.io/badge/test-passing-green" />
 
 # DevOps Exercise / COS 397 HW5
 
@@ -52,6 +50,11 @@ Each of these will return a sorted list.
 
 
 On the linting / testing
+
+Lint/test
+- Click 'Actions' in GitHub
+- Select a current build.
+- Click "Re-run Job"
 
 
 
